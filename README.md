@@ -60,6 +60,6 @@ This directory contains a lisence and requirements/setup file (pyproject.toml), 
  If you choose to not run the emotion detection then just run icatcher_plus without processing the video first in jupyter notebook.  
 
 ## More information
-iCatcher+: https://github.com/erelyotam/icatcher_plus
-face_and_emotion_detection: https://github.com/priya-dwivedi/face_and_emotion_detection
+- iCatcher+: https://github.com/erelyotam/icatcher_plus
+- face_and_emotion_detection: https://github.com/priya-dwivedi/face_and_emotion_detection
 
