@@ -21,7 +21,7 @@ Sample videos in the input folder:
 - infant.mov
 - infant2.mov
 
-#### face_and_emotion_detection
+#### emotion_detection
 This directory contains three subdirectories: emotion_detector_models, output, src.
 - /emotion_detector_models: a pre-trained model that is used to determine the emotion classification for a given image.
 - /output: contains a folder and a csv file for each video classified. The folder contains every time frame as a .jpg 
@@ -38,7 +38,7 @@ Before running all cells, go to the last cell and fill in the variables "video_n
 Then run all cells to populate your output folder. Once you have gathered all of the emotion detection 
 files you need, go to the icatcher_plus directory.
 
-#### icatcher_plus
+#### icatcher
 This directory contains a lisence and requirements/setup file (pyproject.toml), a test directory, icatcher_video_dataset, src, and output directory. 
  - /tests: A test directory to make sure the right dependencies are installed.
  - /src/icatcher: 
