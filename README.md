@@ -13,7 +13,7 @@
 - face_recognition: 1.3.0
 - jupyter notebook
 
-### Table of Contents
+## Table of Contents
 #### input
 Put any video you are interested in running Infant Analysis on in the input folder.
 Sample videos in the input folder:
@@ -59,7 +59,7 @@ This directory contains a lisence and requirements/setup file (pyproject.toml), 
  If you rerun the same command the previous video and txt will be rewritten unless they are renamed.
  If you choose to not run the emotion detection then just run icatcher_plus without processing the video first in jupyter notebook.  
 
-### More information
+## More information
 iCatcher+: https://github.com/erelyotam/icatcher_plus
 face_and_emotion_detection: https://github.com/priya-dwivedi/face_and_emotion_detection
 
