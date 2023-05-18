@@ -33,11 +33,6 @@ and the csv records the emotion predicted at each timeframe.
     - EmotionDetector_v2.ipynb: used to train the emotion detection model. 
     - requirements.txt: necessary to download all of the libraries to  run this code.
 
-Open Jupyter notebook and navigate to /src/facial_detection_recog_emotion.ipynb. 
-Before running all cells, go to the last cell and fill in the variables "video_name, full_video_name".
-Then run all cells to populate your output folder. Once you have gathered all of the emotion detection 
-files you need, go to the icatcher_plus directory.
-
 #### icatcher
 This directory contains a lisence and requirements/setup file (pyproject.toml), a test directory, icatcher_video_dataset, src, and output directory. 
  - /tests: A test directory to make sure the right dependencies are installed.
@@ -51,13 +46,21 @@ This directory contains a lisence and requirements/setup file (pyproject.toml), 
  A txt file with all of the information (timeframe, looking direction, confidence of looking direction, emotion)
  - /icatcher_video_dataset: a subset of videos from the iCatcher dataset for training (https://osf.io/5u9df/)
  
- Navigate to /icatcher_plus/src/icatcher and run: 
+ 
+## How to run the code
+1) Open Jupyter notebook and navigate to /src/facial_detection_recog_emotion.ipynb. 
+Before running all cells, go to the last cell and fill in the variables "video_name, full_video_name".
+Then run all cells to populate your output folder. Once you have gathered all of the emotion detection 
+files you need, go to the icatcher_plus directory.
+
+2) Navigate to /icatcher_plus/src/icatcher and run: 
  ```
  python src/icatcher/cli.py ../input/nameOfVideo --output_video_path output --output_annotation output
 ```
  Once the video is done processing you can check the output folder. 
  If you rerun the same command the previous video and txt will be rewritten unless they are renamed.
  If you choose to not run the emotion detection then just run icatcher_plus without processing the video first in jupyter notebook.  
+
 
 ## More information
 - iCatcher+: https://github.com/erelyotam/icatcher_plus
